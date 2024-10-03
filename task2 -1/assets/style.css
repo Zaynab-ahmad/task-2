@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    text-align: center;
+    background-color: hsl(0, 0%, 50%);
+}
+
+.Hero {
+    text-align: center;
+    background-color: #808080;
+    padding: 20px;
+}
+
+.Hero img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.Hero h1 {
+    line-height: 0.5;
+    
+    margin: 10px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Hero h2 {
+    line-height: 0.5;
+    margin: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.Hero h3 {
+    line-height: 0.5;
+    margin: 20px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.Hero p {
+    line-height: 2;
+    margin: 20px 30vh;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+main {
+    margin: 10px auto;
+    width: 60%;
+}
+
+main h3 {
+    width: 100%;
+    margin: 20px 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.All-Sections {
+    border: 2px solid hsl(0deg 1% 71% / 72%);
+    padding: 10px;
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px;
+}
+
+.flex .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5 121 239);
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+
+}
+
+.flex i {
+    color: black;
+}
+
+.flex a {
+    color: white;
+    margin: 5px;
+}
